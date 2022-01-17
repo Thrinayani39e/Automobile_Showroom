@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/car2.jpeg);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  color : #000;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 200%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-10 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-15 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-10,
+.col-15 {
+  padding: 0 20px;
+}
+
+
+.container {
+  background-color : #fff;
+  padding: 10px 20px 0px 20px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #002c5f;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 50%;
+  text-align: center;
+  font-family: 'Poppins' , sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.b30 {
+text-align: left;
+width: 30%;}
+
+footer {
+     font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+footer span a{
+    color: #002c5f;
+    text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+ 
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
