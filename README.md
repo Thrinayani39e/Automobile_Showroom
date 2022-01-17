@@ -1,6 +1,6 @@
 # Automobile_Showroom_DBMS
 Installation Guide:
-1. Install sql server with phpMyadmin in your machine.
+1. Install MySql server with phpMyadmin in your machine.
 2. Create a database named automobile_showroom in that.
 3. Copy paste the sql code given in this project(automobile_showroom.sql) to make your tables and data entries.
 4. Go to xampp\htdocs and create a sub folder in htdocs.
