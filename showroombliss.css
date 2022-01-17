@@ -1,0 +1,372 @@
+html,body{
+    background-color: #fff;
+    font-family: sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color:#002c5f;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.log1{
+    width: 150px;
+    height: 60px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/* LANDING CSS */
+
+.landing{
+    display: flex;
+    
+    
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: 0.3;
+    line-height: 30px;
+}
+
+.landingText .btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #002c5f;
+    border-radius: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.landingText .btn a{
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+
+
+.landingImage img{
+    width: 55vw;
+    
+}
+
+
+
+
+.about{
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1{
+    position: relative;
+    left: 110px;
+}
+
+
+
+.aboutList{
+    width: 50%;
+}
+
+ol{
+    list-style: none;
+    color: #002c5f;
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p{
+    font-size: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* INFO_SECTION CSS */
+
+.infoSection{
+    height: 350px;
+    padding: 20px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+   
+}
+
+.infoCards .one .cardoneImg{
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .two .cardtwoImg{
+    width: 158px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .three .cardthreeImg{
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color: #002c5f;
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: #002c5f;
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent h2{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6
+}
+/* gifts */
+.giftbg{
+    background-color:#d1e5ed;
+}
+.immdisc{
+    width: 600px;
+    height: 300px;
+    padding-left: 200px;
+}
+.insidecard{
+    width: 1250px;
+    height: 400px;
+    padding: 40px;
+}
+.forpad{
+    padding: 40px;
+}
+.bt1{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #002c5f;
+    border-radius: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Banner */
+
+.banner{
+    height: 150px;
+    position: relative;
+    width: 1200px;
+    margin: 240px auto;
+    text-align: center;
+    flex-direction: row;
+    
+
+
+    
+}
+
+
+.banner .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background:#4998e3;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.banner .box .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#002c5f;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.banner .box:hover .icon
+{
+    top: 20px;
+    left: calc(50%-40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.banner .box .icon .fa
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+transition: 0.5s;
+color: #fff;
+
+} 
+.banner .box:hover .icon .fa
+{
+   font-size: 40px;
+}
+
+.banner .box .content
+{
+    position: absolute;
+    top: 100px;
+    height: calc(100%-100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.banner .box:hover .content
+{
+    top: 100px;
+    opacity: 1;
+
+}
+.banner .box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+
+}
+
+
+
+
+/* FOOTER CSS */
+
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+
+
+
