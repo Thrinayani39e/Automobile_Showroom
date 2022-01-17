@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Form by Thrinayani-->
+<link rel="stylesheet" href="joinus.css">
+<link href="http://fonts.cdnfonts.com/css/hyundai" rel="stylesheet">
+<title>Customer Details</title>
+</head>
+<body>
+<div class="formbox">
+<div class="title">Join <span class="orgname" style="color:#002c5f;">Hyundai</span>'s Family</div>
+<div class="content">
+<form action="customerhyundai.php" method="post">
+<div class="user-details">
+<div class="input-box">
+<span class="details">First Name</span>
+<input type="text" placeholder="First Name" name="fname" required>
+</div>
+<div class="input-box">
+<span class="details">Last Name</span>
+<input type="text" placeholder="Last Name" name= "lname" required></div>
+<div class="input-box">
+    <span class="details">Email</span>
+    <input type="text" placeholder="Email" name= "email_id" required></div>
+<div class="input-box">
+<span class="details">DOB</span>
+<input type="text" pattern="\d*" title="Numbers only" minlength="08" maxlength="08" name="DOB" placeholder="YYYY/MM/DD" required>
+</div>
+<div class="input-box">
+<span class="details">Gender</span>
+<input type="text" title="M/F/O" minlength="1" maxlength="1"  name= "gender" placeholder="M- Male, F-female, O-other" required>
+</div>
+
+    <div class="input-box">
+        <span class="details">Door No</span>
+        <input type="text" placeholder="Door No" name="Dno" required>
+        </div>
+        <div class="input-box">
+        <span class="details">Street</span>
+        <input type="text" placeholder="Street" name="street" required>
+        </div>
+        <div class="input-box">
+            <span class="details">City</span>
+            <input type="text" placeholder="City" name="city" required>
+            </div>
+        <div class="input-box">
+                <span class="details">Phone no</span>
+                <input type="text"  pattern="\d*" title="Numbers only" minlength="10" maxlength="10" name= "phonenum" placeholder="Phone number" required>
+        </div>
+</div>
+<div class="button">
+<a href="booknow.html"><input type="submit" value=" Proceed "></a>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
